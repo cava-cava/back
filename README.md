@@ -1,2 +1,3 @@
-# back
-back-end for game
+# Strapi application
+
+A quick description of your strapi application

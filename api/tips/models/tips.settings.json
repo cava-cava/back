@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tips",
+  "info": {
+    "name": "Tips",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "message": {
+      "type": "text"
+    }
+  }
+}
