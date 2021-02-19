@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/did-you-knows",
+      "handler": "did-you-know.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/did-you-knows/count",
+      "handler": "did-you-know.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/did-you-knows/:id",
+      "handler": "did-you-know.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/did-you-knows",
+      "handler": "did-you-know.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/did-you-knows/:id",
+      "handler": "did-you-know.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/did-you-knows/:id",
+      "handler": "did-you-know.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
