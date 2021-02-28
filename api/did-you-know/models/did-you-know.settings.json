@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "did_you_knows",
+  "info": {
+    "name": "Did you know",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

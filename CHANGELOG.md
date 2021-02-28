@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/happy-game/back/compare/v1.1.0...v1.2.0) (2021-02-28)
+
+
+### Features
+
+* did you knows collection created ([a814878](https://github.com/happy-game/back/commit/a8148788877eeb38d5061b523b72ee3f29e128b8))
+
 ## 1.1.0 (2021-02-12)
 
 
