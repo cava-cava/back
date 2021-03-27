@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guesses",
+  "info": {
+    "name": "Guess"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

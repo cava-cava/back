@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/guesses",
+      "handler": "guess.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guesses/count",
+      "handler": "guess.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guesses/:id",
+      "handler": "guess.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/guesses",
+      "handler": "guess.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/guesses/:id",
+      "handler": "guess.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/guesses/:id",
+      "handler": "guess.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
