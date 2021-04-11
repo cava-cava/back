@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/happy-game/back/compare/v1.3.0...v1.4.0) (2021-04-11)
+
+
+### Features
+
+* add game over collection ([4c62059](https://github.com/happy-game/back/commit/4c620591a582d3439d85f8eb21aeb35cca03226e))
+
 ## [1.3.0](https://github.com/happy-game/back/compare/v1.2.1...v1.3.0) (2021-03-28)
 
 

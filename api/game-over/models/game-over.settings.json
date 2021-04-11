@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_overs",
+  "info": {
+    "name": "Game Over"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "position": {
+      "min": 0,
+      "required": false,
+      "type": "integer"
+    }
+  }
+}
