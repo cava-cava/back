@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import PropTypes from 'prop-types';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
@@ -14,7 +14,16 @@ const Wrapper = styled.div`
 `;
 
 const Editor = ({ onChange, name, value }) => {
-  return (
+  const [show, setShow] = useState(false)
+
+  useEffect(() => {
+    if(value) setShow(true)
+    else {
+      setTimeout(() => setShow(true), 1500)
+    }
+  }, [value])
+
+  return show ? (
     <Wrapper>
       <CKEditor
         editor={ClassicEditor}
@@ -25,7 +34,7 @@ const Editor = ({ onChange, name, value }) => {
         }}
       />
     </Wrapper>
-  );
+  ) : <div>Loading...</div>;
 };
 
 Editor.propTypes = {
