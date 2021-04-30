@@ -8,7 +8,7 @@
   "options": {},
   "attributes": {
     "Description": {
-      "type": "richtext"
+      "type": "text"
     },
     "audio": {
       "model": "file",
