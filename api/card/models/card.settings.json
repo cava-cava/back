@@ -38,7 +38,7 @@
         "files"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     }
   }
 }
