@@ -8,15 +8,22 @@
   "options": {},
   "attributes": {
     "Description": {
-      "type": "richtext"
+      "type": "text"
     },
-    "Media": {
+    "audio": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "animation": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
       ],
       "plugin": "upload",
       "required": false

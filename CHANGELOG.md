@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/happy-game/back/compare/v1.4.0...v1.5.0) (2021-05-09)
+
+
+### Features
+
+* add cloudinary ([6503bca](https://github.com/happy-game/back/commit/6503bca14f28bfbb6c535b034f1d26c71cb27681))
+* add Rules single ([2ae3e7b](https://github.com/happy-game/back/commit/2ae3e7b7b7021b782424f3ab58b04a33a9cdcc7b))
+* add wysiwyg and App single ([7797544](https://github.com/happy-game/back/commit/7797544916d06573f3a52928e1ac573bc0d48f1d))
+* update cards, add audio and animation ([1cfab98](https://github.com/happy-game/back/commit/1cfab98c550f03ed222f21463c83423e99471670))
+
+
+### Bug Fixes
+
+* editor strapi wysiwyg ([7cd856c](https://github.com/happy-game/back/commit/7cd856c300307f2d8f9c26c6b56f2f55ce0de306))
+* required animation in cards collection ([3963fc3](https://github.com/happy-game/back/commit/3963fc33d746c07610928c2990634e9d80186900))
+* text description in card ([90faee9](https://github.com/happy-game/back/commit/90faee979b2f6050a2ccba28111841b7361c94d7))
+
 ## [1.4.0](https://github.com/happy-game/back/compare/v1.3.0...v1.4.0) (2021-04-11)
 
 

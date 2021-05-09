@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "rules",
+  "info": {
+    "name": "Rules",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "But": {
+      "type": "text"
+    },
+    "Deroulement": {
+      "type": "richtext"
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rules.cards"
+    }
+  }
+}
