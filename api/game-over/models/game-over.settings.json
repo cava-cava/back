@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "game_overs",
   "info": {
-    "name": "Game Over"
+    "name": "Game Over",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -27,6 +28,15 @@
       "min": 0,
       "required": false,
       "type": "integer"
+    },
+    "illustration": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
