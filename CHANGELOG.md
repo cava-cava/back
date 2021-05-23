@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/happy-game/back/compare/v1.5.0...v1.6.0) (2021-05-23)
+
+
+### Features
+
+* add illustration for game over collection ([443707b](https://github.com/happy-game/back/commit/443707b1cd2ff4766e9c56b6c0b3460037af60ef))
+* delete App single type ([e7f753a](https://github.com/happy-game/back/commit/e7f753a59eeb8d73fa5fbcb30750a274d869b2ab))
+
 ## [1.5.0](https://github.com/happy-game/back/compare/v1.4.0...v1.5.0) (2021-05-09)
 
 
