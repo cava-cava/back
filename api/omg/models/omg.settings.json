@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "omgs",
+  "info": {
+    "name": "Omg"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "click",
+        "swipe"
+      ],
+      "default": "click",
+      "required": false
+    },
+    "animationBefore": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "animationAfter": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
