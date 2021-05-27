@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "tutorials",
+  "info": {
+    "name": "Tutorial"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "videos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
