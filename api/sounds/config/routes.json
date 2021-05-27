@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sounds",
+      "handler": "sounds.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sounds",
+      "handler": "sounds.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sounds",
+      "handler": "sounds.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
