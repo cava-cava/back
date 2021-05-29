@@ -1,13 +1,10 @@
 <!-- PROJECT LOGO -->
-<h1 align="center">ÇA VA - ÇA VA</h1>
+!["CA VA - CA VA"](./githubWhite.png)
 <h3 align="center">Strapi</h3>
 
 <p align="center">
     API creation made simple, secure and fast.
     The most advanced open-source Content Management Framework to build powerful API.
-    <br />
-    <br />
-    <a href="https://happiness-strapi.herokuapp.com/">View</a>
 </p>
 
 <!-- GETTING STARTED -->
@@ -18,7 +15,7 @@
 
 * npm
   ```sh
-  npm install npm@6.14.9 -g
+  npm install npm@latest -g
   ```
 
 ### Installation
