@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tutorial",
+      "handler": "tutorial.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tutorial",
+      "handler": "tutorial.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tutorial",
+      "handler": "tutorial.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -8,16 +8,8 @@
   "options": {},
   "attributes": {
     "Description": {
-      "type": "text"
-    },
-    "audio": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files"
-      ],
-      "plugin": "upload",
-      "required": false
+      "type": "text",
+      "required": true
     },
     "animation": {
       "model": "file",
@@ -26,7 +18,7 @@
         "files"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     }
   }
 }

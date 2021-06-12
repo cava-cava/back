@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/happy-game/back/compare/v1.6.0...v2.0.0) (2021-06-12)
+
+
+### Features
+
+* add omg collection ([b7e3fc5](https://github.com/happy-game/back/commit/b7e3fc5804b01a959c4b4429bfd13d624d8af77f))
+* all field is required for card collection  ([89c7451](https://github.com/happy-game/back/commit/89c7451e5c061344dbe6ef499caf48de457eda9e))
+* delete audio for Alternative Card ([0bea2f4](https://github.com/happy-game/back/commit/0bea2f4c2eb3c395209415486bce478fdf35ec34))
+* sounds single type ([339d26f](https://github.com/happy-game/back/commit/339d26ffe7881394b42f5b3155677c4fc5e33603))
+* tutorial single type ([5377c3b](https://github.com/happy-game/back/commit/5377c3b83f80223a2304fb72b87c107b89b109a5))
+* update readme ([6f9f8c5](https://github.com/happy-game/back/commit/6f9f8c54845421a42b316c2b4683b3c5b93fe558))
+
 ## [1.6.0](https://github.com/happy-game/back/compare/v1.5.0...v1.6.0) (2021-05-23)
 
 

@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "cards",
+  "collectionName": "omgs",
   "info": {
-    "name": "Card",
-    "description": ""
+    "name": "Omg"
   },
   "options": {
     "increments": true,
@@ -11,20 +10,16 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Description": {
-      "type": "text",
-      "required": true
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "click",
+        "swipe"
+      ],
+      "default": "click",
+      "required": false
     },
-    "Points": {
-      "type": "integer",
-      "required": true
-    },
-    "Alternative": {
-      "type": "component",
-      "repeatable": true,
-      "component": "alternative.crasse"
-    },
-    "audio": {
+    "animationBefore": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -33,7 +28,7 @@
       "plugin": "upload",
       "required": true
     },
-    "animation": {
+    "animationAfter": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
